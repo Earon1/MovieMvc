@@ -1,0 +1,4 @@
+Controllers are responsible for providing the data required in order for a view template to render a response. 
+A best practice: View templates should not perform business logic or interact with a database directly. 
+Rather, a view template should work only with the data that's provided to it by the controller. 
+Maintaining this "separation of concerns" helps keep your code clean, testable, and maintainable.
